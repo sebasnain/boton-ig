@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: Grizzly;
+    src: url(font/mexican-pride-by-aspekhndz.ttf);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background: #283048;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.foto > img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #1DB954;
+    margin-left: 17%;
+    -webkit-box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.75);
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Grizzly', sans-serif;
+}
+
+.contenedor{
+    background-image: linear-gradient(to top, #161315 0%, #505d74 100%);
+    height: 600px;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+.botones{
+    
+    height: 300px;
+    width: 290px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    
+}
+
+button{
+
+    background-color: rgb(75, 75, 83);
+    width: 270px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    justify-content:start;
+    border: none;
+}
+
+button:hover{
+   background-color: #1DB954;
+   -webkit-box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.75);
+   
+}
+
+button > a{
+    display: flex;
+    align-items: center;
+   
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+.icono {
+    width: 20px;
+    height: 20px;
+    display: flex;
+     justify-content: start;
+     margin-right: 10px;
+    
+}
+
+ svg{
+    color: #fff;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
